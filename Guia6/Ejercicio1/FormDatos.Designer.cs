@@ -57,7 +57,7 @@
             gbDatosPersona.Margin = new Padding(4, 5, 4, 5);
             gbDatosPersona.Name = "gbDatosPersona";
             gbDatosPersona.Padding = new Padding(4, 5, 4, 5);
-            gbDatosPersona.Size = new Size(467, 224);
+            gbDatosPersona.Size = new Size(467, 253);
             gbDatosPersona.TabIndex = 12;
             gbDatosPersona.TabStop = false;
             gbDatosPersona.Text = "Datos de la Persona";
@@ -65,26 +65,28 @@
             // lbMensajeNombre
             // 
             lbMensajeNombre.BackColor = SystemColors.ActiveCaption;
+            lbMensajeNombre.Font = new Font("Microsoft Sans Serif", 9.75F);
             lbMensajeNombre.Location = new Point(115, 60);
             lbMensajeNombre.Margin = new Padding(4, 0, 4, 0);
             lbMensajeNombre.Name = "lbMensajeNombre";
-            lbMensajeNombre.Size = new Size(344, 20);
+            lbMensajeNombre.Size = new Size(344, 36);
             lbMensajeNombre.TabIndex = 17;
             // 
             // lbMensajeCUIT
             // 
             lbMensajeCUIT.BackColor = SystemColors.ActiveCaption;
-            lbMensajeCUIT.Location = new Point(115, 122);
+            lbMensajeCUIT.Font = new Font("Microsoft Sans Serif", 9.75F);
+            lbMensajeCUIT.Location = new Point(115, 132);
             lbMensajeCUIT.Margin = new Padding(4, 0, 4, 0);
             lbMensajeCUIT.Name = "lbMensajeCUIT";
-            lbMensajeCUIT.Size = new Size(344, 20);
+            lbMensajeCUIT.Size = new Size(344, 40);
             lbMensajeCUIT.TabIndex = 16;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(rbFisica);
             groupBox1.Controls.Add(rbJuridica);
-            groupBox1.Location = new Point(115, 147);
+            groupBox1.Location = new Point(115, 177);
             groupBox1.Margin = new Padding(4, 5, 4, 5);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(4, 5, 4, 5);
@@ -119,7 +121,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(48, 94);
+            label1.Location = new Point(48, 104);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(46, 20);
@@ -128,7 +130,7 @@
             // 
             // tbCUIT
             // 
-            tbCUIT.Location = new Point(115, 91);
+            tbCUIT.Location = new Point(115, 101);
             tbCUIT.Margin = new Padding(4, 5, 4, 5);
             tbCUIT.Name = "tbCUIT";
             tbCUIT.Size = new Size(152, 26);
@@ -155,7 +157,7 @@
             // btnIniciarPrespuesto
             // 
             btnIniciarPrespuesto.DialogResult = DialogResult.OK;
-            btnIniciarPrespuesto.Location = new Point(61, 248);
+            btnIniciarPrespuesto.Location = new Point(71, 277);
             btnIniciarPrespuesto.Margin = new Padding(4, 5, 4, 5);
             btnIniciarPrespuesto.Name = "btnIniciarPrespuesto";
             btnIniciarPrespuesto.Size = new Size(121, 53);
@@ -166,7 +168,7 @@
             // btnBorrarProducto
             // 
             btnBorrarProducto.DialogResult = DialogResult.Cancel;
-            btnBorrarProducto.Location = new Point(286, 248);
+            btnBorrarProducto.Location = new Point(286, 277);
             btnBorrarProducto.Margin = new Padding(4, 5, 4, 5);
             btnBorrarProducto.Name = "btnBorrarProducto";
             btnBorrarProducto.Size = new Size(118, 53);
@@ -178,7 +180,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(488, 306);
+            ClientSize = new Size(488, 335);
             Controls.Add(gbDatosPersona);
             Controls.Add(btnBorrarProducto);
             Controls.Add(btnIniciarPrespuesto);
